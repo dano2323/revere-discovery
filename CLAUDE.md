@@ -9,11 +9,11 @@ This repository is a skill: it builds Revere Discovery reports (brand and employ
 
 | When | Open |
 |---|---|
-| Setup to data | `system/runbook.md` (owed) |
+| Setup to data | `system/runbook.md` (templates in `system/templates/`) |
 | What the deck says, slide by slide | `system/spec.md` |
-| Building and checking | `system/build-playbook.md` (owed) |
-| How it's said | `system/content-guidelines.md` (owed) |
-| Brand or employer differences | `brand/overrides.md`, `employer/overrides.md` (owed) |
+| Building and checking | `system/build-playbook.md`; tools in `system/tools/` (owed) |
+| How it's said | `system/content-guidelines.md` |
+| Brand or employer differences | `brand/overrides.md`, `employer/overrides.md` |
 | How it renders | `revere-design-system` repo (shared) |
 | Decisions and their reasons | `docs/01-audit.md` |
 
