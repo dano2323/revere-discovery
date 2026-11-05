@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+._*
+
+# Platform exports: drop downloads in inbox/; never committed as-is.
+# (Where exports live once filed is decided in the audit.)
+inbox/
+
+# Tooling
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+Claude outputs/
