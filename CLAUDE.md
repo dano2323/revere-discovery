@@ -11,7 +11,7 @@ This repository is a skill: it builds Revere Discovery reports (brand and employ
 |---|---|
 | Setup to data | `system/runbook.md` (templates in `system/templates/`) |
 | What the deck says, slide by slide | `system/spec.md` |
-| Building and checking | `system/build-playbook.md`; tools in `system/tools/` (owed) |
+| Building and checking | `system/build-playbook.md`; `system/tools/build_extract.py`; `collision_sweep.py` (owed) |
 | How it's said | `system/content-guidelines.md` |
 | Brand or employer differences | `brand/overrides.md`, `employer/overrides.md` |
 | How it renders | `revere-design-system` repo (shared) |
