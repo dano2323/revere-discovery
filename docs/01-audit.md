@@ -1,6 +1,6 @@
 # 01 — Audit and reconciliation
 
-**Version 0.1 · Draft · 5 Nov 2026 · Step 1 of the work plan.** What Discovery takes from each source, what today's platform shows and what happens to it, how the brand and employer lines differ, and the decisions needed before step 2 (the skill). Decisions are numbered **D1…**; open questions **Q1…**.
+**Version 0.2 · 5 Nov 2026 · Step 1 of the work plan.** v0.2: D1–D8 decided (Dan); any model allowed, latest GPT with search as default; questions, pillars and ranked-list attributes editable per run; employer Rank on 10-item lists; open-ended and fact-based questions logged only; agency branding on the close. What Discovery takes from each source, what today's platform shows and what happens to it, how the brand and employer lines differ, and the decisions needed before step 2 (the skill). Decisions are numbered **D1…**; open questions **Q1…**.
 
 ---
 
@@ -31,7 +31,7 @@
 | Scale | Every displayed score 0–100 | Same | Platform still shows /50 and /10; the report never does |
 | Verdict bands | Strong ≥67 · Mixed 50–66 · <50 | Same | **D2** names the word for <50 |
 | Relative read | Leading · Inline · Lagging tag, never a color | Same | "The divergence is the finding" stays |
-| Rank (employer) | — | Category Briefs compute Rank from full 20-item lists (mean points × 5). Discovery lists are top-10 (absent = 11) | **Q4**: one Rank formula for both products, set in the platform |
+| Rank (employer) | — | **10-item lists** in Discovery (Dan, 5 Nov). Category Briefs use longer lists because their competitive set can exceed 10. Proposed scoring, the Category Brief method on 10 items: 10 points for first … 1 for tenth, 0 if not named; mean × 10 → 0–100 | **Q4**: confirm the scoring with Mike and the dev team; computed on the platform |
 | Index visual | The Category Brief's **Index Visual** (mark + contribution bar), not the Discovery wheel | Same | The brief rejected arc length = weight (every subject looked identical). Retire the wheel |
 
 **Retired from the Employer Discovery docs:** "Rank is retired" (§1.2a); the 50/25/25 index; the completeness doctrine (§1.6); the standalone Emergent Framing chapter as a measured dimension (keep emergent framing as a *signal* where the data shows one).
@@ -79,13 +79,13 @@ Fates: **Report** (on a slide) · **Evidence** (platform panel, behind a report 
 |---|---|---|
 | Brand / Product switch | Keep (brand line only) | **Q2**: what Product mode changes. Known: it limits purchase criteria |
 | Brand / Employer name | Keep | |
-| LLM (offline and search variants) | Keep, search models only, default GPT-6.1 with search | One model in Discovery |
-| Category (suggested from the brand, or manual) | Keep | |
+| LLM (offline and search variants) | Keep. Default: the latest GPT with search; any model available under "More options" | One model per Discovery run |
+| Category | Keep | Suggested from the brand; the user picks one or adds their own |
 | Category Type | Hide | Confirm unused (**Q3**) |
 | Market | Keep | |
-| Competitors (suggested from the category; same list as the gear's Competitive Set, up to 10) | Keep, on the form only | Dan tested 5 Nov: one list |
-| Template dropdown; template editor (Visibility/Rank prompt, sentiment questions, pillars, criteria) | Hide from users; Revere admin | Discovery runs the line's standard template. Base prompts versioned and visible to admins (TE PRD §5.6) |
-| Visibility attributes (Top, Best, Most Recommended; custom) | Admin | Part of the standard template |
+| Competitors | Keep, on the form only | Suggested from the category; the user can add, edit or remove. Same list as the gear's Competitive Set, up to 10 (Dan tested, 5 Nov) |
+| Sentiment questions, pillars (Brand / EVP), ranked-list attributes (Visibility / Rank) | Keep, under "More options" | Each starts from the line's default set; the user can add or remove items per run. Show the content, never the prompt wrapper |
+| Template dropdown; template editor; prompt wrappers (Visibility/Rank prompt) | Revere admin | Base prompts versioned and visible to admins (TE PRD §5.6) |
 | Batch mode (employer) | Default on for Discovery (**D5**) | Async, cheaper. Discovery is a volume BD tool |
 | Rank methodology: by category / by named competitor (employer) | Admin; default by category | |
 | Launch limit ("10 launches remaining") | Keep, quiet | |
@@ -96,7 +96,7 @@ Fates: **Report** (on a slide) · **Evidence** (platform panel, behind a report 
 - **Target state: no exports.** Every step reads the run's records on the platform (TE PRD v0.7 principle). Exports are sample data for the skill and prototype until then, and an admin download after.
 - **The export is now self-describing:** a `key_legend` documents every field, origin (raw or processed) and scale. Use it as the dev team's own field definitions in the PRD.
 - **Already in the export:** a source rollup by type (own, competitors, PR and media, third party), by model and by metric. This closes the old Sources gap.
-- **New question types exist on the core platform:** open-ended (no brand named) and fact-based questions (`OEQ`, `FBQ`, "present only when configured"); neither sample uses them. **Q5**: are they in the standard Discovery template, or available to add?
+- **Logged, not used:** the export format includes open-ended (no brand named) and fact-based question sections (`OEQ`, `FBQ`, "present only when configured"); neither sample uses them. Discovery's intake and views leave them out until there's a decision to include them (Dan, 5 Nov).
 - **Run shape in the samples:** one model, General market, General persona; brand set of 4 (Allstate + 3), employer set of 6 (Jimmy John's + 5); 12 and 8 sentiment questions.
 
 ## 8. Design system
@@ -121,10 +121,10 @@ Fates: **Report** (on a slide) · **Evidence** (platform panel, behind a report 
 
 Everything else is shared: process, gates, spec, slide architecture, components.
 
-## 10. Decisions
-| # | Decision | Recommendation |
+## 10. Decisions (all decided, Dan, 5 Nov)
+| # | Decision | Decided |
 |---|---|---|
-| D1 | Methodology source | **Category Briefs govern** (decided, Dan, 5 Nov) |
+| D1 | Methodology source | **Category Briefs govern** |
 | D2 | Word for <50 | **"Opening"** in Discovery (TE's discovery word; reads as opportunity); "Weak" in audits |
 | D3 | Held back for the full audit | The list in §4.6 |
 | D4 | Deck length | 10–12 slides |
@@ -132,6 +132,7 @@ Everything else is shared: process, gates, spec, slide architecture, components.
 | D6 | Index visual | Category Brief Index Visual; retire the wheel |
 | D7 | Repo layout | Shared `system/` (runbook, playbook, spec, guidelines, tools) over `brand/` and `employer/` overrides, as in Category Briefs |
 | D8 | One run per report; a re-run is a new report | As TE |
+| D9 | Agency branding on the close | When an agency runs the report, its name and contact go on the CTA and close; Revere's otherwise (Dan, 5 Nov) |
 
 ## 11. Open questions
 | # | For | Question |
@@ -139,6 +140,5 @@ Everything else is shared: process, gates, spec, slide architecture, components.
 | Q1 | Mike | Who uses the core platform's Discovery views: BD only (Revere, agency AMs), or also brand leads? (Asked by Dan, 5 Nov) |
 | Q2 | Mike | What Product mode changes besides limiting purchase criteria |
 | Q3 | Mike | Is Category Type used anywhere in Discovery prompts? |
-| Q4 | Mike / dev team | One Rank formula for the employer line: Category Brief (20-item lists, mean points × 5) or the platform's (top-10, absent = 11)? |
-| Q5 | Mike / dev team | Are open-ended and fact-based questions part of the standard Discovery templates? |
-| Q6 | Dan | Contact block and CTA on the close: Revere only, or agency-branded when an agency runs it? |
+| Q4 | Mike / dev team | Confirm employer Rank scoring on 10-item lists (§3), replacing the platform's average position (absent = 11) |
+| — | — | Q5 closed: open-ended and fact-based questions logged only (§7). Q6 decided: D9 |
