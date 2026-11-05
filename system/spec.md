@@ -6,7 +6,7 @@
 
 ## Purpose and reader
 **Purpose:** open the conversation for a full audit. Show the subject, with its own data, one or two things about how AI represents it that it didn't know, and that one read raises questions only a full audit answers.
-**Reader:** brand line, the CMO and brand or comms leads; employer line, the CHRO and heads of talent. Plus their agencies. Received by email, from Revere or an agency.
+**Sent by:** Revere, agency account managers, or service providers Revere partners with (employer line). **Reader:** brand line, the CMO and brand or comms leads; employer line, the CHRO and heads of talent. Plus their agencies. Received by email, from Revere or an agency.
 **Format:** presentation, 1280×720, HTML → PDF. **12 slides.** Readable in ten minutes; presentable live.
 
 ## Scope
@@ -23,7 +23,7 @@ Figures were chosen slide by slide against the Caterpillar deck and the TE figur
 | 4 | **Where it stands** | The Index across the set, subject outlined. Competitors' components shown blurred, "in a full audit" | Comparison table with blurred cells (Caterpillar slide 5 + Category Brief blurred table) |
 | 5 | **Visibility / Rank** | Whether AI names the subject when asked for the best in the category, how often and how high | Ranked bars, plus appearance rate |
 | 6 | **Sentiment** | Subject against the set; what lifts it and what holds it down; one verbatim quote. A cold spot by question is named in the text, not tabled | Ranked bars + lifts/holds columns (Caterpillar slide 6) |
-| 7 | **Brand / EVP Pillars** | Where the subject leads, sits inline and trails | Comparison table with Position tags (Caterpillar slide 9), subject + up to 3 competitors + set average; larger sets use the Dumbbell |
+| 7 | **Brand / EVP Pillars** (Product Dimensions in Product mode) | Where the subject leads, sits inline and trails. Product mode: the five dimensions as rows; subdimensions in the evidence panel | Comparison table with Position tags (Caterpillar slide 9), subject + up to 3 competitors + set average; larger sets use the Dumbbell |
 | 8 | **Purchase / Choice Criteria** | What AI says buyers (candidates) weigh, and how the subject compares. Criteria are AI's own choice; say so once | Comparison table with Position tags (Caterpillar slide 10) |
 | 9 | **Sources** | Share of citations by surface, the subject's own in green; its most-cited own pages. Never compare citation counts across brands | Ranked share bars (Caterpillar slide 12) |
 | 10 | **What a full audit would test** | Three or four tests, each from a signal in this read, including any emergent framing, each "Worth a follow-up" | Numbered tests (Caterpillar slide 14) |

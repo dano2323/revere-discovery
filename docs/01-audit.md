@@ -77,7 +77,7 @@ Fates: **Report** (on a slide) · **Evidence** (platform panel, behind a report 
 ## 6. Today's setup: catalog and fate
 | Today | Fate | Note |
 |---|---|---|
-| Brand / Product switch | Keep (brand line only) | **Q2**: what Product mode changes. Known: it limits purchase criteria |
+| Brand / Product switch | Keep (brand line only) | Product mode replaces Brand Pillars with **Product Dimensions** (§9) |
 | Brand / Employer name | Keep | |
 | LLM (offline and search variants) | Keep. Default: the latest GPT with search; any model available under "More options" | One model per Discovery run |
 | Category | Keep | Suggested from the brand; the user picks one or adds their own |
@@ -116,7 +116,7 @@ Fates: **Report** (on a slide) · **Evidence** (platform panel, behind a report 
 | Decision lens | Purchase Criteria (model-generated) | Choice Criteria (model-generated) |
 | Index weights | 35/35/15/15 | 25/25/25/25 |
 | Sentiment questions | 12 (standard template) | 8 (standard template); several name the competitors |
-| Product mode | Yes | No |
+| Product mode | Yes: **Product Dimensions** replace Brand Pillars. Five dimensions: Revere sets Reputation, Value and Product Characteristics; the model adds two; the model generates each dimension's subdimensions (e.g. three each). Scored per subdimension, rolled up per dimension, against competitors. Minor prompt wording changes otherwise (Mike, 5 Nov). Screen: `source/platform/screens/brand/report/product-screen.png` | No |
 | Lead framing | Named ≠ recommended | "Are we losing the people we want, to whom, and why?" (CHRO lens); Glassdoor is the benchmark readers check |
 
 Everything else is shared: process, gates, spec, slide architecture, components.
@@ -137,8 +137,12 @@ Everything else is shared: process, gates, spec, slide architecture, components.
 ## 11. Open questions
 | # | For | Question |
 |---|---|---|
-| Q1 | Mike | Who uses the core platform's Discovery views: BD only (Revere, agency AMs), or also brand leads? (Asked by Dan, 5 Nov) |
-| Q2 | Mike | What Product mode changes besides limiting purchase criteria |
+| Q1 | — | Answered (Mike, 5 Nov): Revere, agency account managers, and service providers to employer brands that Revere partners with |
+| Q2 | Mike | Product mode: do Product Dimensions take Brand Pillars' place in the Index (15%)? Does Purchase Criteria still run, and what does "limits purchase criteria" mean? |
 | Q3 | Mike | Is Category Type used anywhere in Discovery prompts? |
 | Q4 | Mike / dev team | Confirm employer Rank scoring on 10-item lists (§3), replacing the platform's average position (absent = 11) |
 | — | — | Q5 closed: open-ended and fact-based questions logged only (§7). Q6 decided: D9 |
+
+## 12. Next steps (logged, not in this build)
+- **A Discovery report that can be sold** (Mike, 5 Nov): a second context beside the BD teaser, with more depth. Tabled (Dan, 5 Nov); this build is the BD report only. Keep components and the held-back list configurable so a sold version can open them later.
+- **Open-ended and fact-based questions** (§7).
