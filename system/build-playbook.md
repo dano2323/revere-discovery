@@ -30,7 +30,7 @@
 - No figure in the deck that isn't in `extract.json`.
 
 ## Gate C — The draft and the two checks
-Write `draft.md` in slide order: for each slide, the eyebrow, headline, lede, the figure (named, with its `extract.json` keys), the quote, the "In a full audit" line. Then run both checks and log each in `fact-check.md`: statement, slide, what the data shows, resolution.
+Write `draft.md` in slide order: for each slide, the eyebrow, headline, lede, the figure (named, with its `extract.json` keys), the quote, the "In a full audit" line. Then run both checks and log each in `fact-check.md` (copy `templates/fact-check.md`): statement, slide, what the data shows, resolution.
 
 **1. Fact check.** Each statement stands only if a measure or a count of answers supports it *as written*: the number, the comparison, the direction, words like "all" and "none." A claim about what AI says is tested by searching the answer text, not by the score alone. Interpretation is labeled as interpretation.
 
