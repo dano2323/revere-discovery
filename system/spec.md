@@ -1,6 +1,6 @@
 # Discovery Report — Spec
 
-**Version 0.1 · Outline for review · 5 Nov 2026.** What a Discovery report says, in what order, and why. Both lines; line labels per `CLAUDE.md` rule 7. Decisions behind it: `docs/01-audit.md`.
+**Version 0.2 · Outline for review · 5 Nov 2026.** What a Discovery report says, in what order, and why. Both lines; line labels per `CLAUDE.md` rule 7. Decisions behind it: `docs/01-audit.md`.
 
 ---
 
@@ -13,24 +13,30 @@
 One model (default: latest GPT with search) · one market · General persona · the subject and its competitors (up to 10). The scope is stated, never apologized for: it is what makes the full audit worth buying.
 
 ## Slides
+Figures were chosen slide by slide against the Caterpillar deck and the TE figure set (`docs/01-audit.md` §8); the better of the two wins.
+
 | # | Slide | Shows | Figure |
 |---|---|---|---|
 | 1 | **Cover** (dark, photo) | "A first look at <subject> in AI"; the cover signal as the headline; scope stamp; Draft mark | — |
-| 2 | **The Discovery read** | The subject's Index and its four components, each with its verdict word (Strong · Mixed · Opening) and one line; two-sentence note on what a Discovery is | Index Visual |
-| 3 | **Where it stands** | The Index across the set, subject in color. Competitors show the Index only; their components are held back | Ranked bars |
-| 4 | **Visibility / Rank** | Whether AI names the subject when asked for the best in the category, and where | Ranked bars (appearance and position) |
-| 5 | **Sentiment** | How favorably AI describes the subject against the competitor average; the questions where it trails, named but not tabled | Question bars (a few rows) |
-| 6 | **What AI praises and faults** | Praise and fault themes, share of answers; one verbatim quote | Theme columns |
-| 7 | **Brand / EVP Pillars** | Where the subject leads, ties and trails the top competitor | Dumbbell |
-| 8 | **Purchase / Choice Criteria** | What AI says buyers (candidates) weigh, and how the subject compares. Criteria are AI's own choice; say so once | Dumbbell |
-| 9 | **Sources** | The subject's own sites against outside sources; the most-cited outside sources. Never compare citation counts across brands | Source mix |
-| 10 | **More signals worth a closer look** | Three or four further signals, each ending "Worth a follow-up"; emergent framing lives here when the data shows it | — |
-| 11 | **From Discovery to a full audit** | What a full audit adds (models, personas, markets, the strategic read); Discovery vs. full audit table | — |
+| 2 | **The Discovery read** | The subject's Index and its four components, each with its verdict word (Strong · Mixed · Opening), weight and one line; one paragraph on how the components disagree | Index Visual + component stat list (Caterpillar slide 2) |
+| 3 | **Where this measure sits** (report only) | The three lanes (surveys, review sites, the model layer); Discovery as the first of three depths (Discovery · Full audit · Monitoring) | Lanes and depths cards (Caterpillar slide 3); brand line names its own lanes |
+| 4 | **Where it stands** | The Index across the set, subject outlined. Competitors' components shown blurred, "in a full audit" | Comparison table with blurred cells (Caterpillar slide 5 + Category Brief blurred table) |
+| 5 | **Visibility / Rank** | Whether AI names the subject when asked for the best in the category, how often and how high | Ranked bars, plus appearance rate |
+| 6 | **Sentiment** | Subject against the set; what lifts it and what holds it down; one verbatim quote. A cold spot by question is named in the text, not tabled | Ranked bars + lifts/holds columns (Caterpillar slide 6) |
+| 7 | **Brand / EVP Pillars** | Where the subject leads, sits inline and trails | Comparison table with Position tags (Caterpillar slide 9), subject + up to 3 competitors + set average; larger sets use the Dumbbell |
+| 8 | **Purchase / Choice Criteria** | What AI says buyers (candidates) weigh, and how the subject compares. Criteria are AI's own choice; say so once | Comparison table with Position tags (Caterpillar slide 10) |
+| 9 | **Sources** | Share of citations by surface, the subject's own in green; its most-cited own pages. Never compare citation counts across brands | Ranked share bars (Caterpillar slide 12) |
+| 10 | **What a full audit would test** | Three or four tests, each from a signal in this read, including any emergent framing, each "Worth a follow-up" | Numbered tests (Caterpillar slide 14) |
+| 11 | **A full audit delivers** | What the audit adds: models, personas, markets, source attribution, strategic recommendations | Two-column list (Caterpillar slide 15) |
 | 12 | **Close** (dark) | The CTA and contact (agency when an agency runs it; Revere otherwise); About this read (model, market, brands, date; scores 0–100; never run counts) | — |
 
-No section dividers: at 12 slides they cost more than they give. Slides 4–9 each follow the signal pattern below.
+No section dividers. Slides 5–9 follow the signal pattern below. Slide 3 is report only: the platform has no equivalent view.
 
-## Each signal slide (4–9)
+**Figures new to the shared design system** (Tier 1, from the Caterpillar deck and Category Briefs): blurred cells on ComparisonTable; component stat list; lifts/holds columns; ranked share bars with own-site highlight. Report only (Tier 3): lanes and depths cards; numbered tests.
+
+**Wide sets:** tables carry the subject, up to three competitors and the set average. Above that, the slide switches to the figure that scales (Dumbbell, ranked bars).
+
+## Each signal slide (5–9)
 1. **Eyebrow:** the measure.
 2. **Headline:** a question or an opening, never a verdict.
 3. **The signal:** one sentence, its scope in the sentence; then one or two of evidence.
@@ -43,7 +49,7 @@ The single biggest signal in the read, whatever its measure. It must: hold in th
 
 ## Held back for the full audit
 Not built in a Discovery; named on slides 10–11 as what an audit delivers:
-- results by question (full table); all ranked lists
+- results by question (full table); all ranked lists; the emoji-style grid of individual answers
 - each pillar and criterion explanation
 - competitors' component scores
 - the full sources explorer
@@ -51,5 +57,5 @@ Not built in a Discovery; named on slides 10–11 as what an audit delivers:
 - recommendations and focus areas
 
 ## Open for review
-- Slides 4–9: six signal slides is the ceiling. Drop one (likely 6 into 5) if the read is thin.
-- Slide 3: does showing competitors' Index (but not components) give away too much?
+- Slide 4: competitors' Index shown, components blurred (decided, Dan, 5 Nov).
+- Slide 7: the subject-only profile bars (Caterpillar slide 8) are dropped; the comparison carries the signal.

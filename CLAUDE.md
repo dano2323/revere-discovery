@@ -28,9 +28,6 @@ A fact lives in one document; the others point to it.
 6. **Words:** American spelling and punctuation; "GPT," not "ChatGPT"; "each" or "all," not "every"; scores 0–100; headlines pass a plain-language test.
 7. **Line labels switch, nothing else:** Visibility ↔ Rank, Brand Pillars ↔ EVP Pillars, Purchase ↔ Choice Criteria.
 
-## Working with Dan
-- **Ask before writing new code or changing existing code.** Docs and data reviews don't need asking.
-- Confirm structure (outlines, slide lists) before building.
-- Brief answers; offer alternatives; say "I don't know" rather than guess.
-- **Git:** Claude commits as work progresses (`Dan Olson` identity is set in this repo); Dan pushes. Exports stay in `inbox/` and are never committed.
+## Repository conventions
+- Exports stay in `inbox/` and are never committed.
 - Docs are spec, not narrative: state the rule, not its history. No changelogs; git keeps history. Stable filenames; versions inside files.
