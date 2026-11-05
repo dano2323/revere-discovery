@@ -9,6 +9,8 @@
 | DEV-2 | **A competitor missing from the rank data.** Subway is in the run's competitor set but appears in neither the competitor rows (`ac`) nor the category list (`cl`). We read that as "never named in any ranked list" and score Rank 0. Is that right, or was Subway dropped (e.g. a name mismatch such as "Subway Restaurants")? | Jimmy John's export | Open |
 | DEV-3 | **One name per brand.** The subject is "Jimmy John’s" (curly apostrophe) in the rank data and "Jimmy John's" (straight) elsewhere; a competitor is "Jersey Mike’s Subs" in `cl` and "Jersey Mike's" in `ac`. Can each brand carry one canonical name (and an ID) across all sections? | Jimmy John's export | Open |
 | DEV-4 | **Employer Rank scoring.** Discovery scores Rank from 10-item lists: 10 points for first … 1 for tenth, 0 if not named, mean × 10 → 0–100. With absence imputed at 11, that equals (11 − rank score) × 10. Can the platform compute and store it? | `employer/overrides.md` | Open |
+| DEV-5 | **Pillar names as typed.** The brand Standard Template's pillars arrive as entered: "innovation" (lower case), "Reponsibilty and Impact" (typo). Can names be fixed at source, and kept stable so runs compare? | Allstate export (brand, Gemini 3.1 with search) | Open |
+| DEV-6 | **Tooling in the sources.** `validate.perfdrive.com` (a bot-check service) is counted as a third-party source, 2.7% of citations. Should tooling and redirect domains be dropped before sources are counted? | Allstate export | Open |
 
 ## For Revere
 | # | Question | For | Status |
