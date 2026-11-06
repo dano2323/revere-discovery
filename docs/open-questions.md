@@ -15,6 +15,6 @@
 ## For Revere
 | # | Question | For | Status |
 |---|---|---|---|
-| RV-1 | Product mode: do Product Dimensions take Brand Pillars' 15% in the Brand Index? How do Purchase Criteria behave in Product mode? | Mike | Open (`docs/01-audit.md` Q2) |
+| RV-1 | Product mode: do Product Dimensions take Brand Pillars' 15% in the Brand Index? How do Purchase Criteria behave in Product mode? | Mike | **Answered 5 Nov:** yes, they take the 15%; Purchase Criteria still run |
 | RV-2 | Is Category Type used anywhere in Discovery prompts? | Mike | Open (Q3) |
 | RV-3 | Confirm employer Rank scoring (DEV-4) | Mike | Open (Q4) |

@@ -1,0 +1,26 @@
+Copyright © 2026 Revere, Inc. All rights reserved.
+
+PROPRIETARY AND CONFIDENTIAL
+
+This repository and everything in it, including source code, design tokens,
+components, prototypes, specimens, documentation and other materials (the
+"Materials"), are proprietary to Revere, Inc. ("Revere") and are Revere's
+confidential information. Except as stated under "Exceptions" below, Revere
+owns all right, title and interest in and to the Materials.
+
+No license is granted. The Materials are made available only to people Revere
+has authorized, and only to develop, test and maintain Revere's platform. You
+may not copy, modify, distribute, publish, sublicense or otherwise use the
+Materials for any other purpose, or disclose them to anyone Revere has not
+authorized, without Revere's prior written permission.
+
+Exceptions
+
+1. Third-party software and fonts. Dependencies (for example React and MUI,
+   under the MIT License) and fonts (Outfit and JetBrains Mono, under the SIL
+   Open Font License) remain under their own licenses.
+
+2. Client data. Platform exports and client names are never committed. Sample
+   data in the prototype and specimens is fictional or anonymized.
+
+Questions about this notice: Revere, Inc.

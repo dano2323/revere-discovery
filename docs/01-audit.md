@@ -138,7 +138,7 @@ Everything else is shared: process, gates, spec, slide architecture, components.
 | # | For | Question |
 |---|---|---|
 | Q1 | — | Answered (Mike, 5 Nov): Revere, agency account managers, and service providers to employer brands that Revere partners with |
-| Q2 | Mike | Product mode: do Product Dimensions take Brand Pillars' place in the Index (15%)? Does Purchase Criteria still run, and what does "limits purchase criteria" mean? |
+| Q2 | — | Answered (Mike, 5 Nov): Product Dimensions take the 15%; Purchase Criteria still run |
 | Q3 | Mike | Is Category Type used anywhere in Discovery prompts? |
 | Q4 | Mike / dev team | Confirm employer Rank scoring on 10-item lists (§3), replacing the platform's average position (absent = 11) |
 | — | — | Q5 closed: open-ended and fact-based questions logged only (§7). Q6 decided: D9 |

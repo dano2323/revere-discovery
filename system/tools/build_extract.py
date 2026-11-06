@@ -76,7 +76,7 @@ class Extract:
         d = self.d
         self.line = "employer" if "EVP" in d else "brand"
         if self.line == "brand" and "BP" not in d:
-            sys.exit("No Brand Pillars section: Product mode is not supported until docs/01-audit.md Q2 is answered.")
+            sys.exit("No Brand Pillars section: a Product-mode export? Product Dimensions take the pillars' 15% (brand/overrides.md); add their section keys here once a Product-mode export is in hand.")
         self.sec = ({"presence": "RD", "pillars": "EVP", "criteria": "ECC"} if self.line == "employer"
                     else {"presence": "V", "pillars": "BP", "criteria": "PC"})
         self.subject = d["brand"] if isinstance(d["brand"], str) else d["brand"][0]
