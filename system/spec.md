@@ -20,7 +20,7 @@ Figures were chosen slide by slide against the Caterpillar deck and the TE figur
 | 1 | **Cover** (dark, photo) | "A first look at <subject> in AI"; the cover signal as the headline; scope stamp; Draft mark | — |
 | 2 | **The Discovery read** | The subject's Index and its four components, each with its verdict word (Strong · Mixed · Opening), weight and one line; one paragraph on how the components disagree | Index Visual + component stat list (Caterpillar slide 2) |
 | 3 | **Where this measure sits** (report only) | The three lanes (surveys, review sites, the model layer); Discovery as the first of three depths (Discovery · Full audit · Monitoring) | Lanes and depths cards (Caterpillar slide 3); brand line names its own lanes |
-| 4 | **Where it stands** | The Index across the set, subject outlined. Competitors' components shown blurred, "in a full audit" | Score table (Caterpillar slide 5) |
+| 4 | **Where it stands** | The Index and its four components for each brand, subject outlined, sorted by Index | Score table (Caterpillar slide 5) |
 | 5 | **Visibility / Rank** | Whether AI names the subject when asked for the best in the category, how often and how high | Ranked bars with *Named in* and *Avg. place* columns |
 | 6 | **Sentiment** | Subject against the set; what lifts it and what holds it down; one verbatim quote. A cold spot by question is named in the text, not tabled | Ranked bars + lifts/holds columns (Caterpillar slide 6) |
 | 7 | **Brand / EVP Pillars** (Product Dimensions in Product mode) | Where the subject leads, sits inline and trails. Product mode: the five dimensions as rows; subdimensions in the evidence panel | Comparison table with Position tags (Caterpillar slide 9), subject + up to 3 competitors + set average; larger sets use the Dumbbell |
@@ -35,7 +35,7 @@ Figures were chosen slide by slide against the Caterpillar deck and the TE figur
 
 No section dividers. Slides 5–10 follow the signal pattern below. Slide 3 is report only: the platform has no equivalent view.
 
-**Figures new to the shared design system** (Tier 1, from the Caterpillar deck and Category Briefs): blurred cells on ComparisonTable; component stat list; lifts/holds columns; ranked share bars with own-site highlight. Report only (Tier 3): lanes and depths cards; numbered tests.
+**Figures new to the shared design system** (Tier 1, from the Caterpillar deck and Category Briefs): score table; frame table; component stat list; lifts/holds columns; ranked share bars with own-site highlight. Report only (Tier 3): lanes and depths cards; numbered tests.
 
 **Wide sets:** tables carry the subject, up to three competitors and the set average. Above that, the slide switches to the figure that scales (Dumbbell, ranked bars).
 
