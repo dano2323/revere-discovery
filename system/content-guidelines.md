@@ -62,6 +62,12 @@ A Discovery opens a conversation for a full audit. It shows enough to make the r
 - **A quote must serve the slide's claim.** If none does, omit it; never add one to fill space.
 - **One per slide.** Attributed to the model and what it was asked about ("GPT-6.1, asked about the strongest and weakest aspects of working at Caterpillar").
 
+## 6a. Emergent framing
+- **A frame is the model's own characterization** of the subject, unprompted by any pillar or criterion (the positive and negative attributes in the run's data). Signal is insistence, not truth; say so once.
+- **Map each frame** to the pillar or criterion it belongs to. A frame with no home is **Emergent**: the most valuable signal in the read for a BD conversation, because nobody has thought to measure it. Combine near-duplicates before mapping.
+- Mapping is authored at Gate C, recorded in `draft.md`, and fact-checked like any claim.
+- Lead with the emergent frames in the reading; never present one as a finding about the company.
+
 ## 7. Artifact-first
 A sharp or surprising signal (a zero, a full score, a large gap) is a measurement artifact until the raw answers prove otherwise. Before it reaches the draft: (1) confirm the answers support it; (2) check whether the measurement causes it; (3) only then write it. Hedge an *interpretation* of why AI says something; keep the counts plain.
 
