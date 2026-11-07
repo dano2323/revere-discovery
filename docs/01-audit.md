@@ -40,7 +40,7 @@
 Discovery exists to open a conversation for a full audit (Dan and Mike, 4–5 Nov; Mike: "not giving away too much information if these will be free").
 
 1. **Signals and opportunities, never findings.** Headlines lean to the question or the opening. Same rule as TEDRs.
-2. **Show the Index; hold back the parts.** Subject's Index and its four components, against the set. Competitors' components appear only where a section's signal needs them.
+2. **Show the Index and its parts for each brand** (Dan, 6 Nov). What's held back is depth (more models, personas, markets, per-question detail), not the scores already in the read.
 3. **One signal per section,** one figure, at most one verbatim quote, one "In a full audit" line.
 4. **"More signals worth a closer look":** a short list, each ending "Worth a follow-up." The only next step is a full audit (no Focus Areas, no action list).
 5. **Short.** Target 10–12 slides (was 16). Cover with the photographic ground stays (Mike).

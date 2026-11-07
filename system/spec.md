@@ -20,8 +20,8 @@ Figures were chosen slide by slide against the Caterpillar deck and the TE figur
 | 1 | **Cover** (dark, photo) | "A first look at <subject> in AI"; the cover signal as the headline; scope stamp; Draft mark | — |
 | 2 | **The Discovery read** | The subject's Index and its four components, each with its verdict word (Strong · Mixed · Opening), weight and one line; one paragraph on how the components disagree | Index Visual + component stat list (Caterpillar slide 2) |
 | 3 | **Where this measure sits** (report only) | The three lanes (surveys, review sites, the model layer); Discovery as the first of three depths (Discovery · Full audit · Monitoring) | Lanes and depths cards (Caterpillar slide 3); brand line names its own lanes |
-| 4 | **Where it stands** | The Index across the set, subject outlined. Competitors' components shown blurred, "in a full audit" | Comparison table with blurred cells (Caterpillar slide 5 + Category Brief blurred table) |
-| 5 | **Visibility / Rank** | Whether AI names the subject when asked for the best in the category, how often and how high | Ranked bars, plus appearance rate |
+| 4 | **Where it stands** | The Index across the set, subject outlined. Competitors' components shown blurred, "in a full audit" | Score table (Caterpillar slide 5) |
+| 5 | **Visibility / Rank** | Whether AI names the subject when asked for the best in the category, how often and how high | Ranked bars with *Named in* and *Avg. place* columns |
 | 6 | **Sentiment** | Subject against the set; what lifts it and what holds it down; one verbatim quote. A cold spot by question is named in the text, not tabled | Ranked bars + lifts/holds columns (Caterpillar slide 6) |
 | 7 | **Brand / EVP Pillars** (Product Dimensions in Product mode) | Where the subject leads, sits inline and trails. Product mode: the five dimensions as rows; subdimensions in the evidence panel | Comparison table with Position tags (Caterpillar slide 9), subject + up to 3 competitors + set average; larger sets use the Dumbbell |
 | 8 | **Purchase / Choice Criteria** | What AI says buyers (candidates) weigh, and how the subject compares. Criteria are AI's own choice; say so once | Comparison table with Position tags (Caterpillar slide 10) |
@@ -54,11 +54,10 @@ The single biggest signal in the read, whatever its measure. It must: hold in th
 Not built in a Discovery; named on slides 10–11 as what an audit delivers:
 - results by question (full table); all ranked lists; the emoji-style grid of individual answers
 - each pillar and criterion explanation
-- competitors' component scores
 - the full sources explorer
 - other models, personas and markets
 - recommendations and focus areas
 
 ## Open for review
-- Slide 4: competitors' Index shown, components blurred (decided, Dan, 5 Nov).
+- Slide 4: competitors' components shown (Dan, 6 Nov; they appear on the measure slides anyway).
 - Slide 7: the subject-only profile bars (Caterpillar slide 8) are dropped; the comparison carries the signal.
