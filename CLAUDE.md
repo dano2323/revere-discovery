@@ -4,7 +4,7 @@ This repository is a skill: it builds Revere Discovery reports (brand and employ
 
 ## Start here
 - **"Start a new Discovery for <subject>"** or **"Continue the Discovery for <subject>":** follow `system/runbook.md` (setup to data), then `system/build-playbook.md` (data to deck). Existing subject: read `subjects/<slug>/record.md` first and resume at the first step not done.
-- **Platform design or PRD work:** `docs/` (start with `docs/01-audit.md`).
+- **Platform design or PRD work:** `docs/` (start with `docs/next-session.md`, then `docs/01-audit.md`).
 - Docs still being written are marked "owed" in the table below. Don't improvise their rules; ask.
 
 | When | Open |
