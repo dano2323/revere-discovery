@@ -1,6 +1,6 @@
 # Discovery — Build Playbook
 
-**Version 0.1 · 5 Nov 2026.** From the run's data to a client-ready deck. Both lines. Before the data: `runbook.md`. What the deck says: `spec.md`. How it's said: `content-guidelines.md`. How it renders: the shared design system.
+**Version 0.2 · 6 Nov 2026.** From the run's data to a client-ready deck. Both lines. Before the data: `runbook.md`. What the deck says: `spec.md`. How it's said: `content-guidelines.md`. How it renders: the shared design system.
 
 ---
 
@@ -40,12 +40,16 @@ Write `draft.md` in slide order: for each slide, the eyebrow, headline, lede, th
 
 ## Gate D — The deck
 1. **Build** from `draft.md` and `extract.json` with the shared design system's slide surface (1280×720). Mark it Draft. Cover image from the Intake table; never invent one.
-2. **Sweeps** (`system/tools/collision_sweep.py`, headless, at 1280×720), all slides:
+2. **Sweeps:** `python3 system/tools/collision_sweep.py <deck>.html`, headless at 1280×720. Exits 1 on a hard-gate failure; report and screenshots in `<deck>-sweep/`. It measures in Outfit and JetBrains Mono and won't run in a fallback font: where Google Fonts is blocked, `npm i @fontsource/outfit @fontsource/jetbrains-mono` and pass `--fonts` a folder of their `*-latin-*-normal.woff2` files. Hard gates, all slides:
    - **Fit:** nothing past the canvas. Fixed in the draft (split or trim), never with smaller type.
-   - **Foot and stack collision:** no two blocks overlap, including the slide foot.
-   - **Scaling:** the composition holds at other window sizes, 16:9, no reflow.
-   - **Orphans:** no title or lede ends on a single word.
-   - **Adherence:** Position tags match the rule from the visible numbers; one Index value and one placement across the cover, slide 2 and slide 4; no inline style sets a color, font or border.
+   - **Spill:** no box clips its content.
+   - **Foot and stack collision:** no two blocks overlap where one carries text, including the slide foot.
+   - **Scaling:** the composition holds at other window sizes, phone included; 16:9, no reflow.
+   - **Orphans and titles:** no title or lede ends on a single word; no title over two lines.
+   - **Navigation:** one slide at a time; counter, arrows and keys work.
+   - **Adherence:** Position tags match the rule against all competitors, not only the columns shown; each subject figure (Index, placement, each component) reads the same on each slide; blurred cells hold a placeholder; the cover carries the Draft mark (`--publish` once Dan and Mike decide); no inline style sets a color, font or border.
+   - **Advisory, confirmed by eye:** Index arithmetic (weights × components); "every" and "ChatGPT" in the slide text; the cover's placement, stated in words, against slides 2 and 4.
+   The adherence checks read hooks the shared components carry (`data-position`, `data-metric`). A figure drawn outside the shared components escapes them.
 3. **Look at every slide** in the browser and in the PDF.
 4. **Re-run both checks on the built text;** log build-time changes in `fact-check.md`. `pdftotext <deck>.pdf - | grep -ciw every` for the "every" trap.
 5. **Status** in `record.md`; commit.
